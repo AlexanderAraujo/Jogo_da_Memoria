@@ -1,0 +1,95 @@
+body {
+	background-color: #fff;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+}
+.colunas {
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: #d2d0d0;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;-
+}
+.fundo {
+	margin-top: 5px;
+    width: 1445px;
+    margin: auto;
+}
+.fundoImg {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    background-image: url(../imagens/verso.jpg);
+    z-index: 999;
+    filter: brightness(90%);
+}
+.fundoImg:hover {
+    filter: contrast(100%);
+    filter: brightness(120%);
+}
+.fundoImg img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0;
+}
+.selecao img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.jogadores {
+    width: 110px;
+    font-size: 21px;
+    float: left;
+    font-weight: bolder;   
+}
+.painel {
+    width: 100%;
+    float: left;
+    margin: 20px;
+    color: #fff;
+}
+.vez {
+    font-weight: bolder;
+    color: red;
+}
+.pontos {
+    float: left;
+    font-size: 21px;
+    margin-left: 5px;
+}
+.divisoria {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 21px;
+}
+.tamanhoSelect {
+    width: 500px !important;
+    border-radius: 5px 0 0 5px;
+    float: left;
+    padding-right: 40px;
+}
+.botaoContinue {
+    float: left;
+    margin: auto;    
+}
+.tabela1 {
+    width: 700px;
+    margin:auto;
+}
+.tabela2 {
+    width: 1100px;
+    margin:auto;
+}
+.tabela3 {
+    width: 1500px;
+    margin:auto;
+}

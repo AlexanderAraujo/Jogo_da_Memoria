@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/estilo.css" />
+		<script src="js/jogo.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+
+<body>
+	<div class="fundo">
+		<div class="painel">
+			<div class="row">				
+				<div class="col">
+					<div class="jogadores" id="jogador1">Jogador 1: </div>
+					<div class="pontos" id="PontosJogador1">0</div>
+					<div class="divisoria">|</div>
+					<div class="jogadores" id="jogador2">Jogador 2: </div>
+					<div class="pontos" id="PontosJogador2">0</div>
+				</div>
+
+				<div class="col-5">
+					<div class="input-group tamanhoSelect" id="CampoNivelDificuldade">
+						<select class="custom-select" id="nivelDificuldade">
+							<option value="1">Fácil</option>
+							<option value="2">Médio</option>
+							<option value="3">Difícil</option>
+						</select>
+						<div class="input-group-append">
+					    	<button id="botaoNivel" class="btn btn-info" type="button" onclick="iniciaJogo()">Selecionar</button>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="botaoContinue">
+						<button type="button" class="btn btn-info btn-lg" onclick="location.reload()">Reiniciar o Jogo</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="tabelaJogo" class="tabela1"></div>
+	</div>
+</body>
+</html>
